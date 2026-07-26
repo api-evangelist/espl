@@ -1,7 +1,27 @@
 aid: espl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/espl.png
 name: ESPL
-description: ESPL is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ESPL (Esports Players League) is a Singapore-headquartered global esports
+  tournament network and platform, founded in 2019, building an open, grassroots-focused
+  ecosystem for amateur competitive gaming. It runs ESPL-branded online and on-ground
+  tournaments across Asia, Europe, and the Americas with a mobile-first focus alongside
+  PC and console titles, operated from its Singapore headquarters with regional offices
+  in Cologne and Los Angeles. ESPL is a portfolio company of 500 Global (formerly 500
+  Startups), which led its seed round in 2020. As of this enrichment pass ESPL publishes
+  no public developer API, OpenAPI, SDK, or documentation surface, and its espl.co domain
+  did not resolve (DNS SERVFAIL) at probe time; this profile is maintained as a company
+  identity record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/espl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-headquarters: Singapore
+x-founded: '2019'
+x-industry: Esports
+x-domain-status: 'espl.co DNS SERVFAIL (unresolvable) at 2026-07-19 probe; company reported active by third-party sources'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Esports
+- Gaming
+- Tournaments
+- Esports Platform
+- Entertainment
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://espl.co
+- type: X
+  url: https://twitter.com/espl_global
+- type: LinkedIn
+  url: https://sg.linkedin.com/company/espl-esports-players-league
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/esports-players-league
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
