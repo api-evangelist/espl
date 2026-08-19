@@ -33,7 +33,7 @@ x-headquarters: Singapore
 x-founded: '2019'
 x-industry: Esports
 x-domain-status: 'espl.co DNS SERVFAIL (unresolvable) at 2026-07-19 probe; company reported active by third-party sources'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
